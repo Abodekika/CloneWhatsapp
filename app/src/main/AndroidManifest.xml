@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.chatapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".View.profile.UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.contact.ContactActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.display.ViewImageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.profile.ProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.Setting.SettingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.auth.UserInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.display.review_send_image"
+            android:exported="true" />
+        <activity
+            android:name=".View.auth.PhoneLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".View.FullScreenImageActivity"
+            android:exported="true" />
+        <activity android:name=".View.SettingActivity" />
+        <activity android:name=".View.ChatActivity" />
+        <activity android:name=".View.auth.LoginActivity" />
+        <activity android:name=".View.auth.RegistrationActivity" />
+        <activity android:name=".View.HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

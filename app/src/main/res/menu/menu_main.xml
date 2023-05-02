@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/search_ic"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <group
+
+        >
+
+        <item
+            android:id="@+id/new_group"
+            android:title="New Group"
+
+
+            />
+        <item
+            android:id="@+id/action_broadcast"
+            android:title="New Group"
+
+            />
+        <item
+            android:id="@+id/whatsApp_Web"
+            android:title="WhatsApp Web"
+
+            />
+        <item
+            android:id="@+id/Start_Message"
+            android:title="StartMessage"
+
+            />
+        <item
+            android:id="@+id/setting"
+            android:title="Setting"
+
+            />
+
+    </group>
+
+
+</menu>
